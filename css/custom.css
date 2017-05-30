@@ -1,17 +1,142 @@
-html {
-  width: 100%;
-  height: auto; }
-  html body {
-    width: 100%;
-    box-sizing: border-box;
-    height: auto;
-    padding: 20px;
-    margin: 0;
-    font-family: "open sans", helvetica, Sans-Serif;
-    color: #333; }
-    html body .navigation {
-      width: 100%;
-      height: auto;
-      background-color: red; }
 
-/*# sourceMappingURL=custom.css.map */
+
+body {
+  font-family: 'Muli', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.contact-details {
+  min-height: 200px;
+}
+
+.red {
+  background-color: #dc544b;
+}
+
+nav {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+nav .navbar {
+width: 100%;
+  border-bottom: none;
+  border: 0 !important;
+}
+
+nav a {
+  color: #fff;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #fff !important;
+  color: #dc544b;
+}
+
+nav a:active {
+  background-color: #fff !important;
+  color: #dc544b;
+}
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand:visited{
+  color: #fff;
+}
+
+.navbar-brand:hover{
+  color: #fff;
+  background-color: #dc544b !important;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.footer {
+  margin-top: 75px;
+width: 90%;
+height: 30px;
+padding: 10px;
+ position: fixed;
+   bottom: 0;
+}
+
+.footer p {
+  text-align: right;
+}
+
+.text-muted {
+  color: #333;
+  font-size: 10px;
+}
+
+.background {
+ background-image: url(../images/image22.jpg);
+background-position: center;
+background-size: 100%;
+}
+
+.placehold {
+  color: red;
+}
+
+.margin {
+  margin: 0 20px 20px 20px ;
+}
+
+
+ .careNav {
+   list-style:none;
+   padding: 10px ;
+   background-color: #eee;
+   border-radius: 5px;
+ }
+
+ .careNav li a {
+   color: #dc544b;
+   margin: 4px;
+ }
+
+ .link:hover {
+   color: #dc544b;
+   text-decoration: none;
+ }
+ .link {
+   color: #1485CC;
+ }
+ .fa {
+   position: relative;
+   top: 0.2em;
+ }
+
+ #avaliable {
+   margin-bottom: 20px;
+ }
+
+ #avaliable img {
+   float: left;
+   width: 300px;
+   margin: 20px;
+   height: 200px;
+ }
+
+ @media (max-width: 800px) {
+.careNav {
+  display: none;
+}
+   }
+
+   @media (max-width: 767px) {
+     #avaliable img {
+       width: 100%;
+       margin: 20px;
+       height: inherit;
+
+     }
+     }
